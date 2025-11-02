@@ -97,11 +97,9 @@ ol {
 
 .search-form {
   display:flex;
-/*  align-items: center;*/
   width: 100%;
   margin-top: 14px;
   justify-content: space-between;
- /* height:54px;*/
 }
 
 .search-form__fieldset:nth-child(2){
@@ -151,10 +149,6 @@ ol {
   color:#fff;
   text-transform: uppercase;
   max-width: 200px;
-
-  /*На случай увеличения количества текста нужно добавить связку 
-  и ограничить максимальную ширину заголовка  
-  Тогда при увеличении количества текста в конце будет появляться многоточие. */
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
@@ -303,13 +297,10 @@ ol {
   outline-offset: 1px;
 }
 
-/***********************************/
-
 .content__card-link {
   display: block;
 }
 
-/*выделение первой или активной карты */
 .content__card-link_current article {
   background-color: #545050;
 }
@@ -331,14 +322,6 @@ ol {
   outline: none;
 }
 
-/* это лишнее, получается, так как есть .content__card-link_current article 
-.content__card-link:active {
-  background-color: #545050;
-}
-  list-style: none;
-}
-
-/* Кастомный скроллбар */
 .custom-scrollbar::-webkit-scrollbar {
   width: 4px;
 }
